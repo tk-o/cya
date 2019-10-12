@@ -1,0 +1,12 @@
+{
+  "name": "cypress-meets-wdio",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "repository": "https://github.com/tk-o/cypress-meets-wdio",
+  "author": "Tomasz Kopacki <tomasz@kopacki.net>",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "cd example && yarn",
+    "example:test": "cd example && yarn test"
+  }
+}
